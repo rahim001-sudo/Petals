@@ -13,7 +13,7 @@ import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.map
 import kotlinx.coroutines.runBlocking
 
-open class SettingsRepository(
+class SettingsRepository(
   private val datastore: DataStore<Preferences>
 ) {
 
