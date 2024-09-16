@@ -43,7 +43,7 @@ import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.input.PasswordVisualTransformation
 import androidx.compose.ui.unit.dp
 import androidx.navigation.compose.rememberNavController
-import br.com.colman.petals.R.string
+import br.com.colman.petals.R.string.pin_main_screen
 import br.com.colman.petals.navigation.BottomNavigationBar
 import br.com.colman.petals.navigation.MyTopAppBar
 import br.com.colman.petals.navigation.NavHostContainer
@@ -108,7 +108,7 @@ class MainActivity : ComponentActivity(), CoroutineScope by CoroutineScope(Dispa
     }
 
     Column(Modifier.padding(16.dp)) {
-      Text(stringResource(string.pin_main_screen))
+      Text(stringResource(pin_main_screen))
       OutlinedTextField(pin, { pin = it }, visualTransformation = PasswordVisualTransformation())
     }
   }

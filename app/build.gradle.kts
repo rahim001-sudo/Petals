@@ -220,7 +220,6 @@ dependencies {
     because("Specifically to make Screenshots and upload them to a localhost server")
   }
 
-
 }
 
 tasks.withType<Test> {
